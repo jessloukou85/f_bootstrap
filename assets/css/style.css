@@ -1,0 +1,92 @@
+@import url('https://fonts.google.com/specimen/Redressed?query=redressed&Merriweather?query=merriweather');
+.parisienne
+{
+    font-family: 'parisienne';
+}
+.redressed
+{
+    font-family: 'redressed';
+}
+.merriweather
+{
+    font-family: 'merriweather',serif;
+    font-size: 24px;
+}
+.band
+{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+    font-family: merriweather,serif;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    z-index: 99;
+}
+.band .navbar-brand{
+    font-weight: bolder;
+}
+.band .nav-link
+{
+    border-bottom: 1px transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+.band .nav-link:hover
+{
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
+}
+.band .btn-order
+{
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+}
+.band .btn-order:hover,
+.band .btn-order:active
+{
+    color: #fff;
+    background-color: var(--bs-teal);
+    transition: 0.5s;
+    font-size: 18px;
+}
+.banner .btn-order
+{
+    border-color: var(--bs-teal);
+    background-color: var(--bs-teal);
+    
+}
+.banner
+{
+    background: linear-gradient(rgba(5, 5, 5, 0.5),rgba(3, 3, 3, 0.5)), url(../image/restaurant.jpg) center center fixed no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.page .btn
+{
+    border-color: var(--bs-teal);
+}
+.page .btn:hover
+{
+    border-color: #000;
+    background-color: var(--bs-teal);
+    transition: 0.5s;
+}
+.cc-menu
+{
+    background: linear-gradient(rgba(5, 5, 5, 0.5),rgba(3, 3, 3, 0.5)), url(../image/south-station.jpg) center center fixed no-repeat;
+    background-size: cover;
+    height: 1600px;
+}
+.max
+{
+    max-height: 432px;
+}
+.order-form
+{
+    background: linear-gradient(rgba(5, 5, 5, 0.5),rgba(3, 3, 3, 0.5)), url(../image/v1.jpg) center center ;
+    background-size: cover;
+    height: 450px; 
+}
+.cc-footer
+{
+    background: linear-gradient(rgba(145, 105, 105, 0.5),rgba(191, 245, 72, 0.5)) ;
+    height: 250px; 
+}
+
